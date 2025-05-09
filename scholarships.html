@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarships in Laguna, Philippines</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #006241;
+            position: relative;
+        }
+        .back-link {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+        .back-btn {
+            display: inline-block;
+            color: #006241;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            background-color: #f0f0f0;
+            color: #004d33;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 350px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            background-color: #006241;
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            height: 25px;
+            display: flex;
+            align-items: center;
+        }
+        .card-body {
+            padding: 20px;
+            min-height: 180px;
+        }
+        .card-description {
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .requirements {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .req-details {
+            color: #555;
+        }
+        .card-footer {
+            padding: 15px 20px;
+            border-top: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .scholarship-info {
+            color: #006241;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .deadline {
+            color: #666;
+            font-size: 14px;
+        }
+        .apply-btn {
+            background-color: #006241;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+        .apply-btn:hover {
+            background-color: #00492f;
+        }
+        .apply-btn a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+        .apply-btn a:hover,
+        .apply-btn a:visited,
+        .apply-btn a:active {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="back-link"><a href="homepage.php" class="back-btn">← Back to Homepage</a></div>
+        <h1>Scholarships Offered</h1>
+        <p>Opportunities for students to pursue their education</p>
+    </div>
+    
+    <div class="container">
+        <!-- Laguna Provincial Scholarship -->
+        <div class="card">
+            <div class="card-header">Laguna Provincial Scholarship</div>
+            <div class="card-body">
+                <div class="card-description">
+                    Supporting Laguna residents with financial assistance to pursue higher education at accredited institutions within the province.
+                </div>
+                <div class="requirements">Requirements:</div>
+                <div class="req-details">Laguna resident, minimum GPA of 2.5</div>
+            </div>
+            <div class="card-footer">
+                <div>
+                    <div class="scholarship-info">Php. 10,000</div>
+                    <div class="deadline">Deadline: May 30, 2025</div>
+                </div>
+                <button class="apply-btn"><a href="index.html">Apply Now</a></button>
+            </div>
+        </div>
+
+        <!-- Laguna Academic Excellence Scholarship -->
+        <div class="card">
+            <div class="card-header">Laguna Academic Excellence Scholarship</div>
+            <div class="card-body">
+                <div class="card-description">
+                    Merit-based scholarship for outstanding students from Laguna pursuing undergraduate degrees at any accredited college or university in the province.
+                </div>
+                <div class="requirements">Requirements:</div>
+                <div class="req-details">Top 15% of high school class, proof of Laguna residency</div>
+            </div>
+            <div class="card-footer">
+                <div>
+                    <div class="scholarship-info">Php. 15,000</div>
+                    <div class="deadline">Deadline: June 15, 2025</div>
+                </div>
+                <button class="apply-btn"><a href="index.html">Apply Now</a></button>
+            </div>
+        </div>
+
+        <!-- Calamba City Educational Assistance -->
+        <div class="card">
+            <div class="card-header">Calamba City Educational Assistance</div>
+            <div class="card-body">
+                <div class="card-description">
+                    For deserving students from Calamba City pursuing college education, honoring the city's rich educational heritage as the birthplace of José Rizal.
+                </div>
+                <div class="requirements">Requirements:</div>
+                <div class="req-details">Calamba resident, family income certification</div>
+            </div>
+            <div class="card-footer">
+                <div>
+                    <div class="scholarship-info">Php. 5,000</div>
+                    <div class="deadline">Deadline: June 30, 2025</div>
+                </div>
+                <button class="apply-btn"><a href="index.html">Apply Now</a></button>
+            </div>
+        </div>
+
+        <!-- Laguna Industrial Science Scholarship -->
+        <div class="card">
+            <div class="card-header">Laguna Industrial Science Scholarship</div>
+            <div class="card-body">
+                <div class="card-description">
+                    Supporting STEM students with exceptional talent in science and technology to promote innovation in Laguna's industrial sectors.
+                </div>
+                <div class="requirements">Requirements:</div>
+                <div class="req-details">STEM course enrollment, recommendation letter</div>
+            </div>
+            <div class="card-footer">
+                <div>
+                    <div class="scholarship-info">Php. 12,500</div>
+                    <div class="deadline">Deadline: July 15, 2025</div>
+                </div>
+                <button class="apply-btn"><a href="index.html">Apply Now</a></button>
+            </div>
+        </div>
+
+        <!-- Santa Rosa City College Grant -->
+        <div class="card">
+            <div class="card-header">Santa Rosa City College Grant</div>
+            <div class="card-body">
+                <div class="card-description">
+                    Financial assistance for Santa Rosa residents attending local colleges and universities to support the city's growing workforce.
+                </div>
+                <div class="requirements">Requirements:</div>
+                <div class="req-details">Santa Rosa resident, community service hours</div>
+            </div>
+            <div class="card-footer">
+                <div>
+                    <div class="scholarship-info">Php. 8,000</div>
+                    <div class="deadline">Deadline: May 15, 2025</div>
+                </div>
+                <button class="apply-btn"><a href="index.html">Apply Now</a></button>
+            </div>
+        </div>
+
+        <!-- Laguna Arts and Culture Scholarship -->
+        <div class="card">
+            <div class="card-header">Laguna Arts and Culture Scholarship</div>
+            <div class="card-body">
+                <div class="card-description">
+                    For talented students in visual arts, music, theater, or creative writing looking to preserve and promote Laguna's rich cultural heritage.
+                </div>
+                <div class="requirements">Requirements:</div>
+                <div class="req-details">Portfolio submission, artistic achievement proof</div>
+            </div>
+            <div class="card-footer">
+                <div>
+                    <div class="scholarship-info">Php. 7,500</div>
+                    <div class="deadline">Deadline: June 30, 2025</div>
+                </div>
+                <button class="apply-btn"><a href="index.html">Apply Now</a></button>
+            </div>
+        </div>
+    </div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'938e84d14b7bb076',t:'MTc0NjA5NDUzOC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+</body>
+</html>
